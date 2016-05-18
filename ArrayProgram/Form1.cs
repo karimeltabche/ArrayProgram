@@ -69,6 +69,7 @@ namespace ArrayProgram
                 {
                     lstValue.Visible = true;
                     lstValue.Items.Add(temperature);
+                    button2.Enabled = false;
                 }
             }
             catch(Exception ex)
